@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D010EE2B1DA09CF000BD93C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE2A1DA09CF000BD93C5 /* main.m */; };
+		D010EE2E1DA09CF000BD93C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE2D1DA09CF000BD93C5 /* AppDelegate.m */; };
+		D010EE311DA09CF000BD93C5 /* EZRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE301DA09CF000BD93C5 /* EZRadarViewController.m */; };
+		D010EE361DA09CF000BD93C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D010EE351DA09CF000BD93C5 /* Assets.xcassets */; };
+		D010EE441DA09CF000BD93C5 /* EZRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE431DA09CF000BD93C5 /* EZRadarTests.m */; };
+		D010EE4F1DA09CF000BD93C5 /* EZRadarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE4E1DA09CF000BD93C5 /* EZRadarUITests.m */; };
+		D010EE611DA0A23B00BD93C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D010EE601DA0A23B00BD93C5 /* LaunchScreen.storyboard */; };
+		D010EE691DA0A5E600BD93C5 /* tb_condo_2.pgm in Resources */ = {isa = PBXBuildFile; fileRef = D010EE651DA0A5E600BD93C5 /* tb_condo_2.pgm */; };
+		D010EE6A1DA0A5E600BD93C5 /* tb_condo_2.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D010EE661DA0A5E600BD93C5 /* tb_condo_2.yaml */; };
+		D010EE6B1DA0A5E600BD93C5 /* test_map.pgm in Resources */ = {isa = PBXBuildFile; fileRef = D010EE671DA0A5E600BD93C5 /* test_map.pgm */; };
+		D010EE6C1DA0A5E600BD93C5 /* test_map.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D010EE681DA0A5E600BD93C5 /* test_map.yaml */; };
+		D010EE6E1DA0B5E900BD93C5 /* test.pgm in Resources */ = {isa = PBXBuildFile; fileRef = D010EE6D1DA0B5E900BD93C5 /* test.pgm */; };
+		D010EE711DA0B60B00BD93C5 /* EZPGMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D010EE701DA0B60B00BD93C5 /* EZPGMImage.m */; };
+		D0C06C5E1DA1B013000328A8 /* EZYamlData.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C06C5D1DA1B013000328A8 /* EZYamlData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D010EE401DA09CF000BD93C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D010EE1E1DA09CF000BD93C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D010EE251DA09CF000BD93C5;
+			remoteInfo = EZRadar;
+		};
+		D010EE4B1DA09CF000BD93C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D010EE1E1DA09CF000BD93C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D010EE251DA09CF000BD93C5;
+			remoteInfo = EZRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D010EE261DA09CF000BD93C5 /* EZRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D010EE2A1DA09CF000BD93C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D010EE2C1DA09CF000BD93C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D010EE2D1DA09CF000BD93C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D010EE2F1DA09CF000BD93C5 /* EZRadarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRadarViewController.h; sourceTree = "<group>"; };
+		D010EE301DA09CF000BD93C5 /* EZRadarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRadarViewController.m; sourceTree = "<group>"; };
+		D010EE351DA09CF000BD93C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D010EE3A1DA09CF000BD93C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D010EE3F1DA09CF000BD93C5 /* EZRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D010EE431DA09CF000BD93C5 /* EZRadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRadarTests.m; sourceTree = "<group>"; };
+		D010EE451DA09CF000BD93C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D010EE4A1DA09CF000BD93C5 /* EZRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D010EE4E1DA09CF000BD93C5 /* EZRadarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRadarUITests.m; sourceTree = "<group>"; };
+		D010EE501DA09CF000BD93C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D010EE601DA0A23B00BD93C5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D010EE651DA0A5E600BD93C5 /* tb_condo_2.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tb_condo_2.pgm; path = testdata/tb_condo_2.pgm; sourceTree = "<group>"; };
+		D010EE661DA0A5E600BD93C5 /* tb_condo_2.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tb_condo_2.yaml; path = testdata/tb_condo_2.yaml; sourceTree = "<group>"; };
+		D010EE671DA0A5E600BD93C5 /* test_map.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_map.pgm; path = testdata/test_map.pgm; sourceTree = "<group>"; };
+		D010EE681DA0A5E600BD93C5 /* test_map.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_map.yaml; path = testdata/test_map.yaml; sourceTree = "<group>"; };
+		D010EE6D1DA0B5E900BD93C5 /* test.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.pgm; path = testdata/test.pgm; sourceTree = "<group>"; };
+		D010EE6F1DA0B60B00BD93C5 /* EZPGMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPGMImage.h; sourceTree = "<group>"; };
+		D010EE701DA0B60B00BD93C5 /* EZPGMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPGMImage.m; sourceTree = "<group>"; };
+		D0C06C5C1DA1B013000328A8 /* EZYamlData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZYamlData.h; sourceTree = "<group>"; };
+		D0C06C5D1DA1B013000328A8 /* EZYamlData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZYamlData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D010EE231DA09CF000BD93C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE3C1DA09CF000BD93C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE471DA09CF000BD93C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D010EE1D1DA09CF000BD93C5 = {
+			isa = PBXGroup;
+			children = (
+				D010EE281DA09CF000BD93C5 /* EZRadar */,
+				D010EE421DA09CF000BD93C5 /* EZRadarTests */,
+				D010EE4D1DA09CF000BD93C5 /* EZRadarUITests */,
+				D010EE271DA09CF000BD93C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D010EE271DA09CF000BD93C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE261DA09CF000BD93C5 /* EZRadar.app */,
+				D010EE3F1DA09CF000BD93C5 /* EZRadarTests.xctest */,
+				D010EE4A1DA09CF000BD93C5 /* EZRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D010EE281DA09CF000BD93C5 /* EZRadar */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE5C1DA09D1F00BD93C5 /* Radar */,
+				D010EE2C1DA09CF000BD93C5 /* AppDelegate.h */,
+				D010EE2D1DA09CF000BD93C5 /* AppDelegate.m */,
+				D010EE2F1DA09CF000BD93C5 /* EZRadarViewController.h */,
+				D010EE301DA09CF000BD93C5 /* EZRadarViewController.m */,
+				D010EE351DA09CF000BD93C5 /* Assets.xcassets */,
+				D010EE3A1DA09CF000BD93C5 /* Info.plist */,
+				D010EE601DA0A23B00BD93C5 /* LaunchScreen.storyboard */,
+				D010EE291DA09CF000BD93C5 /* Supporting Files */,
+			);
+			path = EZRadar;
+			sourceTree = "<group>";
+		};
+		D010EE291DA09CF000BD93C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE2A1DA09CF000BD93C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D010EE421DA09CF000BD93C5 /* EZRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE431DA09CF000BD93C5 /* EZRadarTests.m */,
+				D010EE451DA09CF000BD93C5 /* Info.plist */,
+			);
+			path = EZRadarTests;
+			sourceTree = "<group>";
+		};
+		D010EE4D1DA09CF000BD93C5 /* EZRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE4E1DA09CF000BD93C5 /* EZRadarUITests.m */,
+				D010EE501DA09CF000BD93C5 /* Info.plist */,
+			);
+			path = EZRadarUITests;
+			sourceTree = "<group>";
+		};
+		D010EE5C1DA09D1F00BD93C5 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE641DA0A5DC00BD93C5 /* testdata */,
+				D010EE6F1DA0B60B00BD93C5 /* EZPGMImage.h */,
+				D010EE701DA0B60B00BD93C5 /* EZPGMImage.m */,
+				D0C06C5C1DA1B013000328A8 /* EZYamlData.h */,
+				D0C06C5D1DA1B013000328A8 /* EZYamlData.m */,
+			);
+			name = Radar;
+			sourceTree = "<group>";
+		};
+		D010EE641DA0A5DC00BD93C5 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				D010EE6D1DA0B5E900BD93C5 /* test.pgm */,
+				D010EE651DA0A5E600BD93C5 /* tb_condo_2.pgm */,
+				D010EE661DA0A5E600BD93C5 /* tb_condo_2.yaml */,
+				D010EE671DA0A5E600BD93C5 /* test_map.pgm */,
+				D010EE681DA0A5E600BD93C5 /* test_map.yaml */,
+			);
+			name = testdata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D010EE251DA09CF000BD93C5 /* EZRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D010EE531DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadar" */;
+			buildPhases = (
+				D010EE221DA09CF000BD93C5 /* Sources */,
+				D010EE231DA09CF000BD93C5 /* Frameworks */,
+				D010EE241DA09CF000BD93C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZRadar;
+			productName = EZRadar;
+			productReference = D010EE261DA09CF000BD93C5 /* EZRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D010EE3E1DA09CF000BD93C5 /* EZRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D010EE561DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadarTests" */;
+			buildPhases = (
+				D010EE3B1DA09CF000BD93C5 /* Sources */,
+				D010EE3C1DA09CF000BD93C5 /* Frameworks */,
+				D010EE3D1DA09CF000BD93C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D010EE411DA09CF000BD93C5 /* PBXTargetDependency */,
+			);
+			name = EZRadarTests;
+			productName = EZRadarTests;
+			productReference = D010EE3F1DA09CF000BD93C5 /* EZRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D010EE491DA09CF000BD93C5 /* EZRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D010EE591DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadarUITests" */;
+			buildPhases = (
+				D010EE461DA09CF000BD93C5 /* Sources */,
+				D010EE471DA09CF000BD93C5 /* Frameworks */,
+				D010EE481DA09CF000BD93C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D010EE4C1DA09CF000BD93C5 /* PBXTargetDependency */,
+			);
+			name = EZRadarUITests;
+			productName = EZRadarUITests;
+			productReference = D010EE4A1DA09CF000BD93C5 /* EZRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D010EE1E1DA09CF000BD93C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sibinlu;
+				TargetAttributes = {
+					D010EE251DA09CF000BD93C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D010EE3E1DA09CF000BD93C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D010EE251DA09CF000BD93C5;
+					};
+					D010EE491DA09CF000BD93C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D010EE251DA09CF000BD93C5;
+					};
+				};
+			};
+			buildConfigurationList = D010EE211DA09CF000BD93C5 /* Build configuration list for PBXProject "EZRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D010EE1D1DA09CF000BD93C5;
+			productRefGroup = D010EE271DA09CF000BD93C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D010EE251DA09CF000BD93C5 /* EZRadar */,
+				D010EE3E1DA09CF000BD93C5 /* EZRadarTests */,
+				D010EE491DA09CF000BD93C5 /* EZRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D010EE241DA09CF000BD93C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D010EE361DA09CF000BD93C5 /* Assets.xcassets in Resources */,
+				D010EE6B1DA0A5E600BD93C5 /* test_map.pgm in Resources */,
+				D010EE6A1DA0A5E600BD93C5 /* tb_condo_2.yaml in Resources */,
+				D010EE691DA0A5E600BD93C5 /* tb_condo_2.pgm in Resources */,
+				D010EE6E1DA0B5E900BD93C5 /* test.pgm in Resources */,
+				D010EE611DA0A23B00BD93C5 /* LaunchScreen.storyboard in Resources */,
+				D010EE6C1DA0A5E600BD93C5 /* test_map.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE3D1DA09CF000BD93C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE481DA09CF000BD93C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D010EE221DA09CF000BD93C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D010EE711DA0B60B00BD93C5 /* EZPGMImage.m in Sources */,
+				D0C06C5E1DA1B013000328A8 /* EZYamlData.m in Sources */,
+				D010EE311DA09CF000BD93C5 /* EZRadarViewController.m in Sources */,
+				D010EE2E1DA09CF000BD93C5 /* AppDelegate.m in Sources */,
+				D010EE2B1DA09CF000BD93C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE3B1DA09CF000BD93C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D010EE441DA09CF000BD93C5 /* EZRadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D010EE461DA09CF000BD93C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D010EE4F1DA09CF000BD93C5 /* EZRadarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D010EE411DA09CF000BD93C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D010EE251DA09CF000BD93C5 /* EZRadar */;
+			targetProxy = D010EE401DA09CF000BD93C5 /* PBXContainerItemProxy */;
+		};
+		D010EE4C1DA09CF000BD93C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D010EE251DA09CF000BD93C5 /* EZRadar */;
+			targetProxy = D010EE4B1DA09CF000BD93C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D010EE511DA09CF000BD93C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D010EE521DA09CF000BD93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D010EE541DA09CF000BD93C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZRadar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D010EE551DA09CF000BD93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZRadar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D010EE571DA09CF000BD93C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EZRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZRadar.app/EZRadar";
+			};
+			name = Debug;
+		};
+		D010EE581DA09CF000BD93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EZRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZRadar.app/EZRadar";
+			};
+			name = Release;
+		};
+		D010EE5A1DA09CF000BD93C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EZRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EZRadar;
+			};
+			name = Debug;
+		};
+		D010EE5B1DA09CF000BD93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EZRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sibinlu.com.EZRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EZRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D010EE211DA09CF000BD93C5 /* Build configuration list for PBXProject "EZRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010EE511DA09CF000BD93C5 /* Debug */,
+				D010EE521DA09CF000BD93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D010EE531DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010EE541DA09CF000BD93C5 /* Debug */,
+				D010EE551DA09CF000BD93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D010EE561DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010EE571DA09CF000BD93C5 /* Debug */,
+				D010EE581DA09CF000BD93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D010EE591DA09CF000BD93C5 /* Build configuration list for PBXNativeTarget "EZRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010EE5A1DA09CF000BD93C5 /* Debug */,
+				D010EE5B1DA09CF000BD93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D010EE1E1DA09CF000BD93C5 /* Project object */;
+}
